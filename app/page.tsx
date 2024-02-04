@@ -99,7 +99,7 @@ export default function Home() {
           <div className='w-full text-[#b8b8b8] h-24 relative top-10'>
             Projeto desenvolvido para fins de estudo, sendo um clone do site Netflix com as principais páginas de navegação.
           </div>
-          <div className='md:w-full md:hidden flex justify-center top-5 relative h-[10] w-[10]'>
+          <div className='md:w-full md:hidden flex justify-center top-14 relative h-[10] w-[10]'>
             <iframe className='relative rounded-xl' width="300" height="315" src="https://www.youtube.com/embed/mfD01qS9TRc?si=ByKCEiTXuhBvopDb" title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
 
