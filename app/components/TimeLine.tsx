@@ -37,7 +37,7 @@ export default function TimeLine({ item }: Items) {
 
                         {_index != item.length - 1 ?
                             <div className="border-l-2  border-green-500">
-                                <div className=' w-[320px] md:w-[700px] h-full'>
+                                <div className=' w-[350px] md:w-[700px] h-full'>
                                     <div className="h-1"></div>
                                     <div className='bg-[#272831] pl-5 pr-5 pb-5 pt-2 -top-[75px] left-6 relative text-[#b8b8b8] rounded-lg mt-10'>
                                         <div className='bg-white rounded-full w-3 h-3 relative -left-[51px] top-5'>
@@ -62,7 +62,7 @@ export default function TimeLine({ item }: Items) {
                             :
                             <>
                                 <div className=" ">
-                                    <div className=' w-[320px] md:w-[700px] h-full'>
+                                    <div className=' w-[350px] md:w-[700px] h-full'>
                                         <div className="h-1"></div>
                                         <div className='bg-[#272831] pl-5 pr-5 pb-5 pt-2 -top-[75px] left-6 relative text-[#b8b8b8] rounded-lg mt-10'>
                                             <div className='bg-white rounded-full w-3 h-3 relative -left-[49px] top-5'>
