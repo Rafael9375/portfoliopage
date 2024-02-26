@@ -31,13 +31,13 @@ export default function Home() {
     }
     , {
       description:
-        'Empresa que oferece um sistema de gestão voltado para clinicas de medicina ocupacional. '
+        'Empresa que oferece um sistema de gestão voltado para clínicas de medicina ocupacional. '
       , data: '03/2019 - 10/2020'
       , title: 'MSITT (Medical Solution IT)'
       , sub: 'Analista Desenvolvedor Full Stack'
       , tasks:
         [
-          'Deselvolvedor técnico de novas funcionalidades/features para o sistema, envolvendo alterações no front-end, no back-end e na base de dados; '
+          'Desenvolvedor técnico de novas funcionalidades/features para o sistema, envolvendo alterações no front-end, no back-end e na base de dados; '
           , 'Migração do fonte do sistema legado para uma nova linguagem; '
           , 'Controle de versionamento do código fonte através do Azure; '
           , "Desenvolvimento de API's que fazem integração com sistemas terceiros."
