@@ -96,11 +96,8 @@ export default function Home() {
         <TimeLine item={conteudo.Esperiencias} />
       </div>
 
-      <div className='h-[700px] w-full  grid justify-items-center relative'>
-        {conteudo.Projetos.map((pro, ind) => (
-          <ProjectsLayout {...pro}></ProjectsLayout>
-        ))}
-      </div>
+      <ProjectsLayout {...conteudo.Projetos} />
+      
       <div className='h-10 relative'></div>
 
     </div>
