@@ -4,11 +4,20 @@ interface Projeto {
     descricao: string,
     youTube: string
 }
-export default function ProjectsLayout(projetos: Projeto[]) {
+
+interface Projetos {
+    projetos: Projeto[]
+}
+
+
+export default function ProjectsLayout({projetos}: Projetos) {
+   
     return (
+        
 
         <div className='h-[700px] w-full  grid justify-items-center relative'>
             {projetos.map((pro, ind) => (
+                
                 <div key={ind} className='h-[620px] md:w-[700px] rounded-lg justify-items-center bg-[#272831] pt-10 pl-10 pr-10 ml-5 mr-5 '>
 
                     <div className='w-full text-2xl text-white relative'>{pro.titulo}</div>

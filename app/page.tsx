@@ -11,6 +11,17 @@ import Link from 'next/link';
 import Itens from './components/Itens';
 import ProjectsLayout from './components/Projects';
 
+interface Apresentacoes{
+  Linha: string
+}
+
+interface Projeto {
+  titulo: string,
+  subtitulo: string,
+  descricao: string,
+  youTube: string
+}
+
 interface ConteudoType {
   Apresentacao: {Linha: string}[] ,
   Esperiencias: {
@@ -42,7 +53,7 @@ export default function Home() {
 
 
   useEffect(() => {
-    console.log(idiomaEscolhido, conteudo)
+    
 
   }, [conteudo])
 
@@ -74,7 +85,7 @@ export default function Home() {
         <div className='rounded-lg h-[350px] md:h-[300px] p-6 bg-[#272831] m-5'>
           <div className='text-white md:text-6xl text-2xl  text-center'>Rafael de Paula</div>
           <div className='text-[#b8b8b8] text-lg top-5 relative'>
-            {conteudo.Apresentacao.map((ap, _index) => 
+            {(conteudo.Apresentacao as Apresentacoes[]).map((ap, _index) => 
               (<div key={_index}>{ap.Linha}</div>)
             )}
             <div className='relative top-8 flex justify-center'>
@@ -96,8 +107,8 @@ export default function Home() {
         <TimeLine item={conteudo.Esperiencias} />
       </div>
 
-      <ProjectsLayout {...conteudo.Projetos} />
-      
+      <ProjectsLayout projetos={conteudo.Projetos} />
+
       <div className='h-10 relative'></div>
 
     </div>

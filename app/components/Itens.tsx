@@ -23,7 +23,7 @@ interface ConteudoType {
 export default function Itens(language: string) {
     let conteudo= {} as  ConteudoType
     conteudo.Projetos = []
-
+    
     let items = [] as any
     
     switch (language) {
@@ -92,7 +92,17 @@ export default function Itens(language: string) {
                 , youTube: 'https://www.youtube.com/embed/mfD01qS9TRc?si=ByKCEiTXuhBvopDb' 
             }
 
+            let projeto2 = { 
+                titulo: 'Clone do Netflix 2'
+                , subtitulo: 'React - Next JS - Node - Tailwind'
+                , descricao: 'Projeto desenvolvido para fins de estudo, sendo um clone do site Netflix com as principais páginas de navegação.'
+                , youTube: 'https://www.youtube.com/embed/mfD01qS9TRc?si=ByKCEiTXuhBvopDb' 
+            }
+
+            conteudo.Projetos = []
+
             conteudo.Projetos.push(projeto)
+            conteudo.Projetos.push(projeto2)
 
             break;
         }
@@ -162,6 +172,8 @@ export default function Itens(language: string) {
                 , descricao: 'Project developed for study purposes, being a clone of the Netflix website with the main navigation pages.' 
                 , youTube: 'https://www.youtube.com/embed/mfD01qS9TRc?si=ByKCEiTXuhBvopDb' 
             }
+
+            conteudo.Projetos = []
 
             conteudo.Projetos.push(projeto)
             break;
