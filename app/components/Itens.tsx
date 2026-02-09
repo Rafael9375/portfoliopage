@@ -32,7 +32,22 @@ export default function Itens(language: string) {
                 {
                     description:
                         'Empresa que terceriza serviços de programadores que ficam alocados em clientes conforme a demanda. '
-                    , data: '10/2020 - Atual...'
+                    , data: '10/2025 - Atual'
+                    , title: 'GFT Brasil Consultoria Informática LTDA'
+                    , sub: 'Analista Desenvolvedor Full Stack'
+                    , tasks:
+                        [
+                            'Desenlvolvedor técnico de novas funcionalidades/features para o sistema, envolvendo alterações no back-end;'
+                            , 'Ajuste de bugs detectados pelo time de operações; '
+                            , 'Participação das dailys para o acompanhamento/posicionamento sobre o andamento da demanda na sprint; '
+                            , 'Controle de versionamento do código fonte através do GitHub/Azure; '
+                        ]
+                    , techs: 'C#; .NET Core; GitHub; Azure; Amazon.'
+                }
+                ,{
+                    description:
+                        'Empresa que terceriza serviços de programadores que ficam alocados em clientes conforme a demanda. '
+                    , data: '10/2020 - 10/2025'
                     , title: 'Rerum Engenharia de Sistemas LTDA'
                     , sub: 'Analista Desenvolvedor Full Stack'
                     , tasks:
@@ -102,6 +117,21 @@ export default function Itens(language: string) {
         case "en": {
             items = [
                 {
+                    description:
+                        'Company that outsources programming services, allocating developers to client projects according to demand.'
+                    , data: '10/2025 - Currently'
+                    , title: 'GFT Brasil Consultoria Informática LTDA'
+                    , sub: 'Full Stack Web Developer'
+                    , tasks:
+                        [
+                            'Technical development of new system features, involving back-end changes;'
+                            , 'Bug fixes identified by the operations team;'
+                            , 'Participation in daily sessions to track and communicate sprint progress;'
+                            , 'Source code versioning control using GitHub/Azure;'
+                        ]
+                    , techs: 'C#; .NET Core; GitHub; Azure; AWS.'
+                }
+                ,{
                     description:
                         'Company that outsources programming services that are allocated to customers according to demand.'
                     , data: '10/2020 - Currently...'
