@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "engines": {
-  "node": ">=18.17.0"
+  "node": "20.x"
   },
   "dependencies": {
-    "@types/node": "24.13.1",
+    "@types/node": "20.11.30",
     "@types/react": "18.2.45",
     "@types/react-dom": "18.2.18",
     "autoprefixer": "10.4.16",
@@ -23,7 +23,7 @@
     "postcss": "8.4.32",
     "primereact": "^10.2.1",
     "react": "18.2.0",
-    "react-chrono": "^2.3.1",
+    "react-chrono": "2.6.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.12.0",
     "rsuite": "^5.48.1",
